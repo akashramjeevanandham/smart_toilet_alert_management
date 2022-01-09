@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="5dp"
+    android:id="@+id/cardview"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <RelativeLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/addparent1">
+
+
+            <TextView
+                android:id="@+id/toiletname"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="TOILET"
+                android:textColor="#7558A8"
+                android:textSize="30dp"
+
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/satus_txt"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="252dp"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="20dp"
+                android:text="STATUS"
+                android:textSize="22dp"
+                android:textColor="#DC0A2A"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Methane_txt"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/toiletname"
+                android:layout_marginTop="50dp"
+                android:text="Methane :"
+                android:textSize="20dp"
+                android:textColor="#C30B11"/>
+            <TextView
+                android:id="@+id/Methane_val"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/toiletname"
+                android:layout_toRightOf="@+id/Methane_txt"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="10dp"
+                android:text="0"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Ir_txt"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/toiletname"
+                android:layout_marginTop="50dp"
+                android:text="Count :"
+                android:textSize="20dp"
+                android:layout_toRightOf="@+id/Methane_val"
+                android:textColor="#ED0518"/>
+            <TextView
+                android:id="@+id/Ir_val"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/toiletname"
+                android:layout_toRightOf="@+id/Ir_txt"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="10dp"
+                android:text="0"
+                android:textSize="20dp" />
+
+
+
+            <ImageView
+                android:id="@+id/status_im"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="68dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="40dp"
+                android:textColor="#ED1C0D"
+                android:textStyle="bold"
+                android:visibility="gone"
+                android:src="@drawable/warning"
+                android:layout_alignParentRight="true" />
+            <ImageView
+                android:id="@+id/status_im2"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="68dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="40dp"
+                android:textColor="#ED1C0D"
+                android:textStyle="bold"
+                android:src="@drawable/yes"
+                android:layout_alignParentRight="true" />
+
+
+
+
+            //
+
+            <!--    <RelativeLayout-->
+            <!--        android:layout_width="match_parent"-->
+            <!--        android:layout_height="wrap_content"-->
+            <!--        android:layout_below="@+id/addparent1"-->
+            <!--        android:visibility="gone"-->
+            <!--        android:id="@+id/addparent2">-->
+            <!--        <TextView-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:text="long"-->
+            <!--            android:visibility="visible"-->
+            <!--            android:layout_marginTop="5dp"-->
+            <!--            android:id="@+id/longdesc"/>-->
+            <!--        <ImageView-->
+            <!--            android:layout_width="50dp"-->
+            <!--            android:layout_height="50dp"-->
+            <!--            android:src="@drawable/ic_up_arrow"-->
+            <!--            android:layout_below="@id/longdesc"-->
+            <!--            android:id="@+id/uparrow"-->
+            <!--            android:layout_alignParentEnd="true"-->
+            <!--            android:layout_alignParentRight="true"-->
+            <!--            android:visibility="visible"/>-->
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

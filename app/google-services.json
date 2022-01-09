@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "569169507783",
+    "project_id": "smart-alert-toilet",
+    "storage_bucket": "smart-alert-toilet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569169507783:android:50d72c743aefd927ef95e2",
+        "android_client_info": {
+          "package_name": "com.akash.smarttoiletalert"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569169507783-hasucr85ufgfjl21se9puepkfq562bv3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.akash.smarttoiletalert",
+            "certificate_hash": "2ee1f9ff37ddf6ed1f01057fae99225bd8bd12c1"
+          }
+        },
+        {
+          "client_id": "569169507783-bllm049uoki86u6337f7u0ct3ahebsqd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOPQYlW02IRc_0t3XXN8Kgw4kx3Ibe2Zo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "569169507783-bllm049uoki86u6337f7u0ct3ahebsqd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
